@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "./Layouts/Header";
+import PrimarySearchAppBar from "./Layouts/PrimarySearchAppBar";
 import Body from "./Layouts/Body";
 import Footer from "./Layouts/Footer";
 import './App.css';
@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <Header />
+    <PrimarySearchAppBar />
     <Body />
     <Footer />
     </div>
